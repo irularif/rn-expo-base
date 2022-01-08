@@ -1,0 +1,14 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": "./" /* Base directory to resolve non-absolute module names. */,
+    "paths": {
+      "app/*": ["app/*"],
+      "libs/*": ["libs/*"],
+      "assets/*": ["assets/*"],
+      "root/*": ["./*"]
+    } /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */
+  },
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js"]
+}
