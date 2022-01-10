@@ -1,4 +1,4 @@
-import { ITheme } from "libs/types/global";
+import { ITheme } from "pkgs/types/global";
 import { RGBToHex } from "libs/utils/colors";
 import { getColor } from "libs/utils/styles";
 

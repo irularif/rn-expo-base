@@ -25,6 +25,19 @@
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
+    },
+    "extra": {
+      "mode": "dev",
+      "credentials": {
+        "dev": {
+          "baseUrl": "",
+          "api": ""
+        },
+        "production": {
+          "baseUrl": "",
+          "api": ""
+        }
+      }
     }
   }
 }

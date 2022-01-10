@@ -9,7 +9,8 @@ module.exports = function (api) {
         {
           alias: {
             app: "./app/",
-            libs: "./libs/",
+            pkgs: "./pkgs/",
+            libs: "./pkgs/libs/",
             assets: "./assets/",
             root: "./",
           },
